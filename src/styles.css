@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap');
+
+:root { color-scheme:dark; font-family:'DM Sans', sans-serif; background:#0b1220; color:#eef4ff; }
+* { box-sizing:border-box; }
+body { margin:0; min-width:320px; background:radial-gradient(ellipse at 85% 5%, #18263b 0, #0b1220 43rem); }

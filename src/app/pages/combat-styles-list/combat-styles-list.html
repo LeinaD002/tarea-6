@@ -1,0 +1,10 @@
+<section class="page-intro">
+  <p class="eyebrow">ARCHIVO DE COMBATE · TAREA 6</p>
+  <h1>Estilos de <span>combate</span></h1>
+  <p class="intro-copy">Cada tarjeta reúne la disciplina, su descripción y los datos del nodo que la vincula con un personaje.</p>
+</section>
+<section class="style-list" aria-label="Tarjetas de estilos de combate">
+  @for (style of styles; track style.id) {
+    <app-combat-style-card [style]="style" />
+  }
+</section>

@@ -1,0 +1,6 @@
+:host { display:block; max-width:1200px; margin:0 auto; padding:56px clamp(18px,5vw,64px) 80px; }
+.eyebrow { margin:0 0 12px; color:#61e0be; font-size:.67rem; font-weight:800; letter-spacing:.16em; }
+h1 { margin:0; color:#f5f8fc; font:800 clamp(2.1rem,5vw,3.7rem)/1.1 Manrope,sans-serif; letter-spacing:-.055em; }
+h1 span { color:#61e0be; }
+.intro-copy { max-width:600px; margin:16px 0 34px; color:#9eafc3; font-size:1rem; line-height:1.7; }
+.style-list { display:grid; gap:22px; }

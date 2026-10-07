@@ -1,0 +1,36 @@
+<article class="combat-card" [attr.aria-labelledby]="'style-' + style.id">
+  <section class="style-panel" aria-label="Información del estilo de combate">
+    <div class="style-image">
+      <img [src]="style.image" [alt]="style.image_alt" />
+      <span class="image-label">ESTILO DE COMBATE</span>
+    </div>
+    <div class="style-description">
+      <p class="eyebrow">DISCIPLINA {{ style.id.toString().padStart(2, '0') }}</p>
+      <h2 [id]="'style-' + style.id">{{ style.name }}</h2>
+      <p>{{ style.description }}</p>
+    </div>
+  </section>
+
+  <section class="node-panel" aria-label="Información del nodo combat_style_character">
+    <div class="node-heading">
+      <span class="node-mark" aria-hidden="true">↗</span>
+      <div>
+        <p class="eyebrow">NODO DE RELACIÓN</p>
+        <h3>combat_style_character</h3>
+      </div>
+    </div>
+    <p class="node-caption">Personaje asociado a este estilo de combate</p>
+    <div class="character">
+      <span class="character-initial" aria-hidden="true">{{ style.node.character_name.charAt(0) }}</span>
+      <div><span class="field-label">PERSONAJE</span><strong>{{ style.node.character_name }}</strong></div>
+    </div>
+    <dl class="node-fields">
+      <div><dt>id</dt><dd>{{ style.node.id }}</dd></div>
+      <div><dt>character_id</dt><dd>{{ style.node.character_id }}</dd></div>
+      <div><dt>combat_style_id</dt><dd>{{ style.node.combat_style_id }}</dd></div>
+      <div><dt>combat_style_name</dt><dd>{{ style.node.combat_style_name }}</dd></div>
+      <div><dt>mastery_level</dt><dd>{{ style.node.mastery_level }}</dd></div>
+      <div><dt>years_practicing</dt><dd>{{ style.node.years_practicing }} años</dd></div>
+    </dl>
+  </section>
+</article>

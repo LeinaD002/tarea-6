@@ -1,0 +1,6 @@
+ .site-header { display:flex; align-items:center; justify-content:space-between; padding:18px clamp(20px, 6vw, 88px); border-bottom:1px solid #233047; background:#0b1220; }
+.brand { color:#f8fafc; font-size:1.2rem; font-weight:800; letter-spacing:.04em; text-decoration:none; }
+.brand span { color:#61e0be; }
+nav a { color:#cbd5e1; text-decoration:none; font-size:.9rem; font-weight:650; }
+nav a:hover, nav a.active { color:#61e0be; }
+main { min-height:calc(100vh - 70px); }
