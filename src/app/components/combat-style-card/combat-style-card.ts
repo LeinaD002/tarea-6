@@ -8,5 +8,5 @@ import { CombatStyle } from '../../data/combat-style-data';
   styleUrl: './combat-style-card.css',
 })
 export class CombatStyleCard {
-  @Input({ required: true }) style!: CombatStyle;
+  @Input({ required: true }) combatStyle!: CombatStyle;
 }

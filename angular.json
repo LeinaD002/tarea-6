@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "first-angular-application-rudya": {
+    "tarea-6-angular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
